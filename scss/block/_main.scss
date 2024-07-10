@@ -1,0 +1,272 @@
+.main{
+    padding-top: 16px;
+    
+  
+
+}
+
+
+
+.main__top__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #c4c1c1;
+   
+}
+
+.main__top__list{
+    display: flex;
+    gap: 33px;
+    margin-bottom: 16px;
+}
+
+.main__top__link{
+    font-weight: 400;
+font-size: 12px;
+color: var(--c1-a);
+transition: all 0.3s ease;
+    &:hover{
+        color: var(--c2-a);
+    }
+}
+
+
+.main__center__select{
+border:none;
+font-weight: 700;
+font-size: 15px;
+color: var(--c1-a);
+outline: none;
+
+
+}
+
+.main__center{
+    padding-top: 40px;
+}
+
+.form__input{width: 500px;
+    padding: 11px 44px 11px 144px;
+    border: 1px solid var(--c1-d);
+    border-radius: 12px;
+    outline-width: 1px;
+    outline-color: var(--c2-c);
+    background-color: #F6F6F6;
+    &::placeholder{font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 14px;
+        color: var(--c1-c);
+
+    }
+
+}
+
+.main__select{
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--c1-a);
+    border:none;
+    outline: none;
+    position: absolute;
+    transform: translate(50%, 50%);
+    right: 86%;
+    background-color: #F6F6F6;
+
+}
+
+.main__sarch__block{
+ 
+
+    position: relative;
+
+}
+
+
+.main___center{
+    padding-top: 40px;
+}
+
+.main___center__form{
+    position: relative;
+}
+.main__center__block{
+   width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.main__center__btn::before{
+    content: '';
+   background-image: url('../img/lup.svg');
+   width: 16px;
+   height: 16px;
+   display: inline-block;
+   background-repeat: no-repeat;
+   position: absolute;
+   transform: translate(-36%, -50%);
+   top: 56%;
+   right: 6%;
+}
+
+
+.main__center__btn{
+    background-color:#FFF;
+    border:none
+
+}
+
+
+.main__line::before{
+content: '';
+display: inline-block;
+background-image:url('../img/line.svg');
+width: 1px;
+height: 20px ;
+position: absolute;
+transform: translate(13px, 8px);
+    transform: translate(50%, 50%);
+    left: 27%;
+
+
+
+}
+
+.main__acount::before{
+    content: '';
+    background-image:url('../img/acount.svg');
+    width: 24px;
+    height: 24px;
+    display:inline-block;
+    background-size: contain;
+    background-repeat:no-repeat;
+
+
+}
+
+.main__cart::before{
+    content: '';
+    background-image: url('../img/cart.svg');
+    width: 24px;
+    height: 24px;
+    display:inline-block;
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+
+.main__cart{
+position: relative;
+}
+.main__number{
+    position: absolute;
+}
+
+
+.main__center__insed__block{
+    display: flex;
+    justify-content: space-between;
+    align-items:center
+}
+
+.main__number{
+    font-weight: 600;
+font-size: 12px;
+color: var(--c1-j);
+border-radius: 100%;
+box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+background: var(--c4-a);
+padding: 0px 5px;
+width: 16px;
+height: 16px;
+position: absolute;
+left: -8px;
+top: 13px;
+
+
+}
+
+
+.main__center__icon{
+    display: flex;
+    align-items:center;
+    gap: 34px;
+
+}
+
+
+
+
+
+.main__botom__list{
+   
+   display: flex;
+    justify-content: space-between;
+    }
+
+
+
+
+ .main__notom__list{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    opacity: 0; 
+     transition: all 0.3s ease;
+}
+
+.main__bottom__listt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid #9f9e9e;
+     border-radius:5px;
+    box-shadow: 2px 0 10px 5px  #ffff;
+    position: absolute;
+    transition: all 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.main__botom__text{
+   display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--c1-a);
+}
+
+.main__botom__text::after{
+    content: '';
+    background-image:url('../img/arrow.svg');
+    display: inline-block;
+    width:12px;
+    height: 12px;
+    background-repeat: no-repeat;
+    background-size:contain;
+
+}
+
+.main__botom__text:hover  ~.main__bottom__listt{
+    opacity: 1;
+    visibility: visible;
+  
+  
+
+}
+
+
+
+.main__bottom{
+    max-width: 1320px;
+
+    padding: 16px 16px;
+    background-color:#F9F9F9
+
+}

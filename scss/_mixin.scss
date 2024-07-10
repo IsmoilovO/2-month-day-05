@@ -1,0 +1,23 @@
+.btn{
+    font-weight: 700;
+font-size: 15px;
+color: var(--c1-a);
+border-radius: 12px;
+padding: 12px 16px;
+background: var(--c1-f);
+border: none;
+display: flex;
+align-items: center;
+gap: 6px;
+
+}
+
+.btn::after{
+    content: '';
+    background-image: url('../../img/arrow-right.svg ');
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+
+
