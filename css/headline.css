@@ -1,0 +1,19 @@
+.headline__title {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--c1-a);
+}
+
+.headline__btn {
+  border-radius: 12px;
+  padding: 6px 12px;
+}
+
+.headline__btn::after {
+  content: "";
+  background-image: url("../../img/arrow-color-right.svg");
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}/*# sourceMappingURL=headline.css.map */

@@ -1,0 +1,22 @@
+.headline__title {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--c1-a);
+}
+
+.head__button {
+  padding: 12px;
+}
+
+.headline__btn::after {
+  content: "";
+  background-image: url("../../img/arrow-color-right.svg");
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+}
+
+.headlline__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}/*# sourceMappingURL=head.css.map */

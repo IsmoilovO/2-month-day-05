@@ -1,0 +1,264 @@
+.posts{
+    padding-top: 64px;
+}
+
+
+.posts__title{
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--c1-a);}
+
+.posts__btn{
+    padding: 6px 10px;
+    font-weight: 700;
+font-size: 15px;
+color: var(--c1-a);
+display: flex;
+align-items: center;
+gap: 8px;
+  
+}
+
+
+.posts__btn::after{
+    content: '';
+    background-image: url('../../img/arrow-color-right.svg');
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: contain;
+
+
+}
+
+.posts__block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.posts{
+    padding-top: 60px;
+}
+
+
+.post__tips{
+    font-weight: 600;
+font-size: 12px;
+color: var(--c2-a);
+border-radius: 12px;
+padding: 0px 8px;
+background-color: var(--c2-e);
+
+}
+
+.post_item{
+    background-image:url( '../img/dinner.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    max-width: 469px;
+    padding: 24px;
+
+}
+
+.posts__subtitle{
+    font-weight: 600;
+font-size: 22px;
+color: var(--c1-j);
+margin-top: 228px;
+margin-bottom: 8px;
+}
+
+.posts__author{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 12px;
+color: var(--c1-j);
+}
+
+.posts__date{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 12px;
+color: var(--c1-j);
+}
+
+
+.posts__img{
+    border-radius:50px
+}
+
+.posts__insed{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.posts__items{
+    max-width: 269px;
+}
+
+.posts__imgg{
+    background-image:url('../img/posts.jpg');
+    background-size: cover;
+    height: 180px;
+    margin-bottom: 24px;
+}
+
+
+.posts__vegetables{
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--c2-a);
+    border-radius: 12px;
+    padding: 0px 8px;
+    background-color: var(--c2-e);
+    margin-bottom: 8px;
+    
+}
+
+.posts__des{
+    font-weight: 600;
+font-size: 18px;
+color: var(--c1-a);
+margin-bottom: 16px;
+}
+
+.posts__aouthorr{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 12px;
+color: var(--c1-a);
+}
+.posts__datee{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c1-a);
+
+}
+
+.posts__bottom{
+    display: flex;
+    gap: 10px;
+}
+
+.posts__salat{
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--c1-a);}
+
+    .posts__itemss{
+        display: flex;
+        align-items:start;
+      
+        max-width: 369px;
+        gap: 30px;
+    }
+
+.posts__aouthorrr{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c1-a);
+}
+
+.posts__dateee{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c1-a);
+    }
+
+    .posts__bottomm{
+        display: flex;
+        gap: 16px;
+    }
+
+
+    .posts__big__block{
+        display: flex;
+        column-gap:32px;
+        margin-top: 32px;
+
+    }
+
+    .posts__listes{
+
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+
+    }
+
+    .footer__link{
+        font-weight: 600;
+font-size: 18px;
+color: var(--c1-a);
+    }
+
+
+    .footer__page{
+        font-family: var(--second-family);
+font-weight: 400;
+font-size: 14px;
+color: var(--c2-a);
+    }
+
+
+    .footer__top__list{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+
+    .footer__top{
+        padding-top: 64px;
+    }
+
+.footer__big__block{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer__bottom{
+    padding-top: 46px;
+}
+
+.footer__bottom__title{
+    font-weight: 600;
+font-size: 18px;
+color: var(--c1-a);
+margin-bottom: 16px;
+}
+
+.footer__bottom__link{
+    font-weight: 600;
+font-size: 12px;
+color: var(--c1-a);
+border-radius: 12px;
+padding: 4px 10px;
+background-color: var(--c1-f);
+}
+
+
+.footer__bottom__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 48px;
+    align-items: center;
+   
+
+}
+
+.footer__texts{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 14px;
+color: var(--c1-a);
+
+}

@@ -1,4 +1,6 @@
-.btn{
+
+@mixin
+ btn{
     font-weight: 700;
 font-size: 15px;
 color: var(--c1-a);
@@ -10,14 +12,19 @@ display: flex;
 align-items: center;
 gap: 6px;
 
+
+
+
 }
 
 .btn::after{
     content: '';
-    background-image: url('../../img/arrow-right.svg ');
+    background-image: url('../img/arrow-right.svg ');
     display: inline-block;
     width: 16px;
     height: 16px;
-}
+} 
+
+
 
 

@@ -1,0 +1,97 @@
+.fruit{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.fruit_text{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 12px;
+color: var(--c1-c);
+}
+
+
+.fruit__des{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 12px;
+color: var(--c1-a);
+}
+
+.fruit__content{
+    margin-top: 16px;
+}
+
+.grid{
+    padding-top: 16px;
+}
+
+.grid__title{
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--c1-a);
+}
+
+.grid__wiev::before{
+    content: '';
+    background-image: url('../img/fruit/lattice.svg');
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+.grid__list{
+
+}
+
+
+.grid__list::before{
+    content: '';
+    background-image: url('../../../img/fruit/lattice-2.svg');
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+
+}
+
+.grid__blok{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.grid__color{
+    
+    font-weight: 600;
+font-size: 12px;
+color: var(--c2-a);
+border-radius: 12px;
+padding: 0px 8px;
+background: var(--c2-e);
+}
+
+.grid__wiev{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 12px;
+color: var(--c1-a);
+display: flex;
+align-items: center;
+gap: 4px;
+}
+
+
+.grid__list{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 12px;
+color: var(--c1-c);
+display: flex;
+align-items: center;
+gap: 4px;
+}
+
+.grid__content{
+    display: flex;
+    justify-content: space-between;
+}

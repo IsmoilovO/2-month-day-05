@@ -1,0 +1,132 @@
+.custom-checkbox{
+   border: 2px solid var(--c1-d);
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    border-radius: 2px;
+    cursor: pointer;
+
+}
+
+.checkbox:checked + .custom-checkbox{
+    background-color:  var(--c2-a);
+    background-image: url('../../../img/fruit/corect.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+
+.custom-checkboxx{
+    border: 2px solid var(--c1-d);;
+   
+     width: 24px;
+     height: 24px;
+     display: inline-block;
+     border-radius: 50px;
+     cursor: pointer;
+ 
+ }
+
+
+
+.checkboxx:checked + .custom-checkboxx{
+
+    border: 5px solid #000;
+   
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    border-radius: 50px;
+
+   
+
+
+
+}
+
+.vegetables__text{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 14px;
+color: var(--c1-a);
+}
+
+.vegetables__btn{
+    font-weight: 600;
+font-size: 12px;
+color: var(--c1-a);
+border: 1px solid var(--c1-e);
+border-radius: 12px;
+padding: 0px 8px;
+display: inline-block;
+}
+
+.vegetables__check__block{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid var(--c1-d);
+    border-radius: 12px;
+    padding: 9px 16px;
+  max-width: max-content;
+}
+
+.selesct__input{
+    font-weight: 600;
+font-size: 12px;
+color: var(--c1-a);
+border: none;
+}
+
+.input__line{
+    display: inline-block;
+    height: 20px;
+    border: 1px solid var(--c1-d);
+}
+
+
+.vegetables__form__block{
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+.vegetables__filtres{
+    font-weight: 600;
+font-size: 12px;
+color: var(--c1-c);
+}
+
+.vegetables__filtre{
+    font-weight: 600;
+font-size: 12px;
+color: var(--c2-a);
+display: flex;
+align-items:center;
+gap: 4px;
+border-radius: 12px;
+padding: 0px 8px;
+background-color: var(--c2-e);
+max-width: max-content;
+}
+
+.vegetables__filtre::after{
+content: '';
+background-image:url('../img/fruit/x.svg');
+    width: 12px;
+height: 12px;
+display: inline-block;
+
+}
+
+.vegetables__content{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+    
+
