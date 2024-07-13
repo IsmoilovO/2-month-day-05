@@ -1,0 +1,297 @@
+.info {
+    &__title {
+        font-weight: 600;
+        font-size: 22px;
+        color: var(--c1-a);
+        margin-top: 16px;
+        margin-bottom: 4px;
+    }
+    &__text {
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 12px;
+        color: var(--c1-c);
+        margin-bottom: 32px;
+    }
+
+    &__form {
+        width: 100%;
+    }
+
+    &__form_input {
+        border: 1px solid var(--c1-d);
+        border-radius: 12px;
+        width: 319px;
+        padding: 16px;
+        outline-width: 2px;
+        outline-color: var(--c1-c);
+        &::placeholder {
+            font-family: var(--second-family);
+            font-weight: 400;
+            font-size: 14px;
+            color: var(--c1-c);
+        }
+    }
+    &__input_nmae {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 12px;
+        color: var(--c1-a);
+    }
+
+    &__form {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(319px, 1fr));
+        gap: 32px;
+    }
+
+    &__from_label {
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+        border: 2px solid var(--c1-d);
+        border-radius: 5px;
+    }
+    &__form_insed_blocks {
+        display: flex;
+        gap: 8px;
+        padding: 18px 12px;
+        align-items: center;
+        border: 1px solid var(--c1-d);
+        border-radius: 12px;
+        padding: 9px 16px;
+        max-width: max-content;
+    }
+
+    &__form__blocks {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    &__form__block {
+        max-width: 670px;
+    }
+    &__metod__text {
+        font-weight: 600;
+        font-size: 12px;
+        color: var(--c1-a);
+    }
+
+    &__metod {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid var(--c1-d);
+        border-radius: 12px;
+        width: 100%;
+        padding: 12px 16px;
+        background-color: var(--c1-h);
+    }
+
+    &__metod_check_block {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+
+    &__metod__descr_block {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+    &__metod_price {
+        font-weight: 600;
+        font-size: 12px;
+        color: var(--c2-a);
+        text-decoration: none;
+    }
+    &__metod_desc {
+        font-weight: 600;
+        font-size: 12px;
+        color: var(--c1-a);
+    }
+    &__metod__img::before {
+        content: "";
+        background-image: url("../img/form/logo-fedex.svg");
+        width: 54px;
+        height: 16px;
+        display: inline-block;
+        background-repeat: no-repeat;
+    }
+
+    &__metodd_blockss {
+        width: 670px;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        flex-direction: column;
+    }
+
+    &__payment__label {
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+        border: 2px solid var(--c1-d);
+        border-radius: 50px;
+    }
+
+    &__payment_input:checked + &__payment__label {
+        border: 5px solid #6a983c;
+    }
+
+    &__paymnet {
+        max-width: 670px;
+        border: 1px solid var(--c1-d);
+        border-radius: 12px;
+        padding: 16px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    &__payment__text {
+        font-weight: 600;
+        font-size: 12px;
+        color: var(--c1-a);
+    }
+    &__payment_credit {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+
+    &__payment_log::before {
+        content: "";
+        width: 49px;
+        height: 19px;
+        display: inline-block;
+        background-image: url("../img/form/visa.svg");
+        background-repeat: no-repeat;
+    }
+    &__payment_logo::before {
+        content: "";
+        width: 49px;
+        height: 19px;
+        display: inline-block;
+        background-image: url("../img/form/visa.svg");
+        background-repeat: no-repeat;
+    }
+    &__paymet_insed_block {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 32px;
+    }
+    &__payment_card {
+        border: 1px solid var(--c1-d);
+        border-radius: 12px;
+        width: 638px;
+        background-color: var(--c1-h);
+        padding: 12px 24px 12px;
+        outline-width: 1px;
+        outline-color: var(--c1-c);
+    }
+
+    &__paymet__name {
+        font-weight: 600;
+        font-size: 12px;
+        color: var(--c1-a);
+        margin-bottom: 3px;
+    }
+
+    &__paymed_card_numberr {
+        width: 350px;
+    }
+    &__paymet__namee {
+        font-weight: 600;
+        font-size: 12px;
+        color: var(--c1-a);
+    }
+
+    &__payment_cardd {
+        width: 350px;
+        padding: 11px 16px 12px 24px;
+        border: 1px solid var(--c1-d);
+        border-radius: 12px;
+        width: 100%;
+        padding: 11px 16px 12px 24px;
+        outline-width: 2px;
+        outline-color: var(--c1-c);
+        background-color: var(--c1-h);
+    }
+    &__paymed_card_numberrr {
+        width: 120px;
+    }
+    &__paymet__nameee {
+        font-weight: 600;
+        font-size: 12px;
+        color: var(--c1-a);
+    }
+    &__payments_cardd {
+        width: 100%;
+        border: 1px solid var(--c1-d);
+        border-radius: 12px;
+        background-color: var(--c1-h);
+        padding: 12px 18px;
+        outline-width: 2px;
+        outline-color: var(--c1-c);
+    }
+    &__paymed_card_numberrrr {
+        width: 120px;
+    }
+    &__paymet__nameeee {
+        font-weight: 600;
+        font-size: 12px;
+        color: var(--c1-a);
+    }
+    &__paymentt_cardd {
+        width: 100%;
+        border: 1px solid var(--c1-d);
+        border-radius: 12px;
+        background-color: var(--c1-h);
+        padding: 12px 18px;
+        outline-width: 2px;
+        outline-color: var(--c1-c);
+    }
+
+    &__paymned__card_min {
+        display: flex;
+        gap: 25px;
+        margin-top: 16px;
+    }
+
+    &__metod__paypal {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid var(--c1-d);
+        border-radius: 12px;
+        width: 100%;
+        padding: 12px 16px;
+        background-color: var(--c1-h);
+        margin-bottom: 16px;
+    }
+    &__metodd__descr_block {
+        display: flex;
+        text-align: center;
+        gap: 8px;
+    }
+}
+
+.from__input_checkboxx:checked + .info__from_label {
+    background-color: var(--c2-a);
+    background-image: url("../img/fruit/corect.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.info__metod_radiocheck {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    border: 1px solid var(--c1-d);
+
+    border-radius: 50px;
+}
+
+.info__metod_checkbox:checked + .info__metod_radiocheck {
+    border: 5px solid #6a983c;
+}

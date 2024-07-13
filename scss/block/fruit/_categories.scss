@@ -97,7 +97,7 @@
     width: 88px;
     height: 16px;
     display: inline-block;
-    background-image: url("../../../img/fruit/star.png");
+    background-image: url("../img/fruit/star.png");
 }
 
 .check__content {
@@ -227,6 +227,7 @@
     padding: 16px;
     width: 268px;
     background-color: var(--c1-j);
+    transition: all 0.3 ease;
 }
 
 .categpries__title {
@@ -249,7 +250,7 @@
     width: 88px;
     height: 16px;
     background-repeat: no-repeat;
-    background-image: url("../../../img/fruit/star_black.svg");
+    background-image: url("../img/fruit/star_black.svg");
     margin-bottom: 16px;
 }
 
@@ -293,14 +294,99 @@
     gap: 55px;
 }
 .categories__bigg__block {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    gap: 34px;
 }
 
 .categories__list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    display: flex;
+    gap: 32px;
 }
 
 .categories__center {
+    display: flex;
+    flex-direction: column;
+    row-gap: 48px;
+}
+
+.categories__item:hover {
+    box-shadow: 2px 4px 9px 3px rgba(77, 89, 92, 0.15);
+}
+
+.number__neame {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c1-c);
+}
+
+.number__page {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c1-a);
+    transition: all 0.3s ease;
+}
+
+.number__page:hover {
+    color: var(--c2-a);
+}
+
+.categories__number__list {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.categories__show {
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--c1-j);
+    border: 2px solid var(--c2-b);
+    border-radius: 12px;
+    padding: 12px 16px;
+    background-color: var(--c2-a);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.categories__show::after {
+    content: "";
+    background-image: url("../img/fruit/arrow-bottom.svg");
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+.static__number {
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--c2-a);
+    border-radius: 12px;
+    padding: 0px 8px;
+    background-color: var(--c2-e);
+    display: inline-block;
+}
+
+.static__name {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c1-c);
+}
+
+.categories__static__block {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.categories__bottom__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 64px;
+    margin-bottom: 64px;
 }
